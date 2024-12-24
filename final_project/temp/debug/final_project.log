@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+  Main.cpp
+C:\Users\俞煥睿\Desktop\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(11,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\俞煥睿\Desktop\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(47,9): error C2084: 函式 'int main(void)' 的主體已經被宣告了
+      C:\Users\俞煥睿\Desktop\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(10,5):
+      參閱 'main' 之前的定義
+  
+C:\Users\俞煥睿\Desktop\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(48,9): error C3861: 'shootDragonGate': 找不到識別項
+C:\Users\俞煥睿\Desktop\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(52,1): error C2059: 語法錯誤: '}'
+C:\Users\俞煥睿\Desktop\NTUT_113-1_CFinalProject_Team14\final_project\source\Main.cpp(52,1): error C2143: 語法錯誤: 遺漏 ';' (在 '}' 之前)
