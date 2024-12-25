@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kevin\\OneDrive\\Desktop\\\u4F5C\u696D\\\u5927\u5B78\\\u5927\u4E00\u4E0A\\\u9AD8\u968E\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\NTUT_113-1_CFinalProject_Team14\\Final_project_shoot_gantry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F3A6C3D-9048-4F8D-BB6E-5CA072CBABBB}|Final_project_shoot_gantry\\Final_project_shoot_gantry.vcxproj|C:\\Users\\Kevin\\OneDrive\\Desktop\\\u4F5C\u696D\\\u5927\u5B78\\\u5927\u4E00\u4E0A\\\u9AD8\u968E\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\NTUT_113-1_CFinalProject_Team14\\Final_project_shoot_gantry\\source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F3A6C3D-9048-4F8D-BB6E-5CA072CBABBB}|Final_project_shoot_gantry\\Final_project_shoot_gantry.vcxproj|solutionrelative:source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\Kevin\\OneDrive\\Desktop\\\u4F5C\u696D\\\u5927\u5B78\\\u5927\u4E00\u4E0A\\\u9AD8\u968E\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\NTUT_113-1_CFinalProject_Team14\\Final_project_shoot_gantry\\source\\Main.cpp",
+              "RelativeDocumentMoniker": "source\\Main.cpp",
+              "ToolTip": "C:\\Users\\Kevin\\OneDrive\\Desktop\\\u4F5C\u696D\\\u5927\u5B78\\\u5927\u4E00\u4E0A\\\u9AD8\u968E\u7A0B\u5F0F\u8A2D\u8A08\u5BE6\u7FD2\\NTUT_113-1_CFinalProject_Team14\\Final_project_shoot_gantry\\source\\Main.cpp",
+              "RelativeToolTip": "source\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-25T09:28:49.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
