@@ -45,10 +45,13 @@ void shuffle(Card* const wDeck) { // ¬~µP
 	
 }
 
+/*-----rayyu-----*/
 int rull(Card card1, Card card2, Card dragonCard, int bet, int big_or_small) { //§PÂ_¿éÄ¹
-	
-}
+	if () {
 
+	}
+}
+/*---------------*/
 int main() {
 	srand(time(NULL));
 	
