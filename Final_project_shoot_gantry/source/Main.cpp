@@ -28,6 +28,7 @@ typedef struct card {
 	int value;
 }Card;
 
+/*-----Sean-----*/
 
 
 
@@ -35,7 +36,7 @@ typedef struct card {
 
 
 
-
+/*--------------*/
 
 void initializeDeck(Card deck[]) { // ªì©l¤Æ¼³§JµP
 	
@@ -49,10 +50,15 @@ int rull(Card card1, Card card2, Card dragonCard, int bet, int big_or_small) { /
 	
 }
 
+/*-----Sean-----*/
 int main() {
 	srand(time(NULL));
-	
+	do {
+
+
+	} while ();
 
 	system("pause");
 	return 0;
 }
+/*--------------*/
