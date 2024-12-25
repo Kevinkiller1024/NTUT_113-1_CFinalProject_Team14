@@ -36,14 +36,15 @@ typedef struct card {
 
 
 
-
+/*-----tang-----*/
 void initializeDeck(Card deck[]) { // ªì©l¤Æ¼³§JµP
-	
+	int i, j;
 }
 
 void shuffle(Card* const wDeck) { // ¬~µP
 	
 }
+/*--------------*/
 
 int rull(Card card1, Card card2, Card dragonCard, int bet, int big_or_small) { //§PÂ_¿éÄ¹
 	
