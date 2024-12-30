@@ -38,13 +38,29 @@ typedef struct card {
 
 /*-----tang-----*/
 void initializeDeck(Card deck[]) { // ªì©l¤Æ¼³§JµP
-	int i, j;
+	int index = 0;
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 13; j++) {
+			deck[index].face = face[j];
+			deck[index].suit = suit[i];
+			deck[index].value = j + 1;
+			index++;
+		}
+	}
 }
 
 void shuffle(Card* const wDeck) { // ¬~µP
-	
+	int i;
+	int j;
+	Card temp;
+
+	for (i = 0; i < DECK_SIZE; i++) {
+		j = rand() % DECK_SIZE;
+		temp = wDeck[i];
+		wDeck[i] = wDeck[j];
+		wDeck[j] = temp;
+	}
 }
-/*--------------*/
 
 int rull(Card card1, Card card2, Card dragonCard, int bet, int big_or_small) { //§PÂ_¿éÄ¹
 	
