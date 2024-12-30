@@ -86,13 +86,32 @@ void card_fly_and_flip(int start_y, const char* face, const char* suit, const ch
 }
 /*--------------*/
 
+/*-----tang-----*/
 void initializeDeck(Card deck[]) { // 初始化撲克牌
-	
+	int index = 0;
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 13; j++) {
+			deck[index].face = face[j];
+			deck[index].suit = suit[i];
+			deck[index].value = j + 1;
+			index++;
+		}
+	}
 }
 
 void shuffle(Card* const wDeck) { // 洗牌
-	
+	int i;
+	int j;
+	Card temp;
+
+	for (i = 0; i < DECK_SIZE; i++) {
+		j = rand() % DECK_SIZE;
+		temp = wDeck[i];
+		wDeck[i] = wDeck[j];
+		wDeck[j] = temp;
+	}
 }
+/*--------------*/
 
 /*-----rayyu-----*/
 int rull(Card card1, Card card2, Card dragonCard, int bet, int big_or_small) { //判斷輸贏
@@ -165,7 +184,7 @@ int rull(Card card1, Card card2, Card dragonCard, int bet, int big_or_small) { /
 		if (dragonCard.value > card1.value && dragonCard.value < card2.value) {
 			printf("恭喜！中洞！贏五倍的錢\n");
 			printf("你拿回了 %d $！\n\n", bet * 5);
-			final += bet * 6;
+			final += bet * 5;
 		}
 		else if (dragonCard.value == card1.value || dragonCard.value == card2.value) {
 			printf("撞柱！你輸了！賠兩倍的錢\n");
